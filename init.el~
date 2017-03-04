@@ -12,10 +12,10 @@
   (load-file (expand-file-name file user-init-dir)))
 
 
-;keyboard bindings file.
+;keyboard bindings.
 (load-user-file "~/.emacs.d/configs/keyboard.el")
 
-; plugin config file.
+;plugin config file.
 (load-user-file "~/.emacs.d/configs/plugins.el")
 
 ;emacs GUI config file.

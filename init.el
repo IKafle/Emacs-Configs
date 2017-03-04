@@ -15,7 +15,7 @@
 ;keyboard bindings.
 (load-user-file "~/.emacs.d/configs/keyboard.el")
 
-;gplugin config file.
+;plugin config file.
 (load-user-file "~/.emacs.d/configs/plugins.el")
 
 ;emacs GUI config file.
