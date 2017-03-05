@@ -18,3 +18,5 @@
 
 ;disable toolbar 
 (tool-bar-mode -1) 
+
+(global-hl-line-mode 1) ; turn on highlighting current line
