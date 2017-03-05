@@ -14,7 +14,8 @@
 (setq fill-column 70)
 
 ;set theme
-(load-theme 'manoj-dark)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/configs/themes/cyberpunk-theme")
+(load-theme 'cyberpunk t)
 
 ;disable toolbar 
 (tool-bar-mode -1) 
