@@ -1,4 +1,0 @@
-
-; highlight parentheses when the cursor is next to them
-(require 'paren)
-(show-paren-mode t)

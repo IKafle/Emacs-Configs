@@ -12,20 +12,20 @@
   (load-file (expand-file-name file user-init-dir)))
 
 ;common utils and key-bindings.
-(load-user-file "~/.emacs.d/configs/general.el")
+(load-user-file "~/.emacs.d/configs/el-files/general.el")
 
 ;keyboard bindings.
-(load-user-file "~/.emacs.d/configs/keyboard.el")
+(load-user-file "~/.emacs.d/configs/el-files/keyboard.el")
 
 ;plugin config file.
-(load-user-file "~/.emacs.d/configs/el-files/highlight-symbol/highlight-symbol.el")
-(load-user-file "~/.emacs.d/configs/plugins.el")
+(load-user-file "~/.emacs.d/configs/packages/highlight-symbol/highlight-symbol.el")
+(load-user-file "~/.emacs.d/configs/el-files/plugins.el")
 
 ;emacs GUI config file.
-(load-user-file "~/.emacs.d/configs/interface.el")
+(load-user-file "~/.emacs.d/configs/el-files/interface.el")
 
 ;programming-modes config file.
-(load-user-file "~/.emacs.d/configs/programming.el")
+(load-user-file "~/.emacs.d/configs/el-files/programming.el")
  
 ;custom keystrokes and functions.
-(load-user-file "~/.emacs.d/configs/custom-bindings.el")
+(load-user-file "~/.emacs.d/configs/el-files/custom-bindings.el")
