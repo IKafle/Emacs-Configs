@@ -1,10 +1,10 @@
-;; integrate a neotree file extension
+;;file extension
 (add-to-list 'load-path "~/.emacs.d/configs/packages/neotree")
   (require 'neotree)
   (global-set-key [f8] 'neotree-toggle)
 
 
-;; highlight-sysmbol configurations
+;; highlight-symbol configurations
 (require 'highlight-symbol)
 (global-set-key [(control f3)] 'highlight-symbol-at-point)
 (global-set-key [f3] 'highlight-symbol-next)
