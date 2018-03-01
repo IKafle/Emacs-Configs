@@ -50,3 +50,5 @@
   (company-mode +1))
 
 (add-hook 'js2-mode-hook #'setup-tide-mode)
+(add-hook 'ng2-mode-hook #'setup-tide-mode)
+
